@@ -20,8 +20,6 @@ function setup() {
 
   ironMan=createSprite(200,350,20,50);
   ironMan.scale=0.3;
-  ironMan.debug=true;
-  ironMan.setCollider("rectangle",100,0,200,400);
   ironMan.addImage(ironManImg);
 
   ground1=createSprite(500,600,1000,10);
